@@ -30,7 +30,8 @@ Pelis Ranking is a web application that allows users to explore and rate movies 
 4. Set up environment variables:
    - Create a `.env` file in the project root and add:
      ```env
-     VITE_APPWRITE_ENDPOINT=your_appwrite_endpoint
+     VITE_APPWRITE_COLLECTION_ID=your_appwrite_collection_id
+     VITE_APPWRITE_DATABASE_ID=our_appwrite_database_id
      VITE_APPWRITE_PROJECT_ID=your_project_id
      VITE_TMDB_API_KEY=your_tmdb_api_key
      ```
