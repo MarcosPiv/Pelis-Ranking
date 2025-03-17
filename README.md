@@ -1,12 +1,60 @@
-# React + Vite
+# Pelis Ranking
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Pelis Ranking is a web application that allows users to explore and rate movies using the TMDB API. The app is built with React + Vite, uses Appwrite for user management and database, and Tailwind CSS for styling.
 
-Currently, two official plugins are available:
+## Technologies Used
+- **React + Vite**: Framework and bundler for a fast and modern application.
+- **Appwrite**: Backend as a service for authentication and database management.
+- **Tailwind CSS**: CSS framework for fast and efficient styling.
+- **TMDB API**: Movie and series data provider.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Search and explore movies using the TMDB API.
+- Register and log in with Appwrite.
+- Rate and save favorite movies.
+- Responsive and modern UI with Tailwind CSS.
 
-## Expanding the ESLint configuration
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/marcospiv/Pelis-Ranking.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd Pelis-Ranking
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Set up environment variables:
+   - Create a `.env` file in the project root and add:
+     ```env
+     VITE_APPWRITE_ENDPOINT=your_appwrite_endpoint
+     VITE_APPWRITE_PROJECT_ID=your_project_id
+     VITE_TMDB_API_KEY=your_tmdb_api_key
+     ```
+5. Run the project:
+   ```bash
+   npm run dev
+   ```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Usage
+- Browse popular movies and search by title.
+
+## Contribution
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix:
+   ```bash
+   git checkout -b new-feature
+   ```
+3. Make changes and commit them:
+   ```bash
+   git commit -m "Added new feature"
+   ```
+4. Push the changes to the remote repository:
+   ```bash
+   git push origin new-feature
+   ```
+5. Create a Pull Request on GitHub.
+
